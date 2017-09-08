@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SuperItemView">
+        <attr name="icon_left" format="reference" />
+        <attr name="arrow" format="reference" />
+        <attr name="right_drawable" format="reference" />
+        <attr name="text_right" format="string" />
+        <attr name="text_right_size" format="dimension" />
+        <attr name="text_left" format="string" />
+        <attr name="text_left_size" format="dimension" />
+        <attr name="text_left_color" format="color" />
+        <attr name="text_right_color" format="color" />
+        <attr name="line_color" format="color" />
+        <attr name="point_color" format="color" />
+        <attr name="icon_size" format="dimension" />
+        <attr name="arrow_size" format="dimension" />
+        <attr name="bottom_line_paddingLeft" format="dimension" />
+        <attr name="bottom_line_paddingRight" format="dimension" />
+        <attr name="top_line_paddingLeft" format="dimension" />
+        <attr name="top_line_paddingRight" format="dimension" />
+        <attr name="right_text_paddingTop" format="dimension" />
+        <attr name="right_text_paddingRight" format="dimension" />
+        <attr name="left_text_paddingLeft" format="dimension" />
+        <attr name="show_top_line" format="boolean" />
+        <attr name="show_bottom_line" format="boolean" />
+        <attr name="show_has_new" format="boolean" />
+    </declare-styleable>
+</resources>

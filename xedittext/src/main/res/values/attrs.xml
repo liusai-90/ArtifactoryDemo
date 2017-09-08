@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="XEditText">
+        <attr name="deleteDrawable" format="reference"/>
+        <attr name="isSimpleCheckNum" format="boolean"/>
+    </declare-styleable>
+</resources>

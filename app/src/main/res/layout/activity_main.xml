@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.adinnet.artifactorytest.MainActivity">
+
+    <com.adinnet.widget.SuperItemView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        app:icon_left="@mipmap/icon_delete"
+        app:text_left="左边文字"
+        app:text_left_size="15sp"
+        app:text_left_color="#987"
+        app:left_text_paddingLeft="5dp"
+        app:arrow="@mipmap/icon_farward"
+        app:text_right="右边文字"
+        app:text_right_color="#789"
+        app:text_right_size="13sp"
+        app:right_text_paddingRight="5dp"
+        app:show_has_new="true"
+        app:point_color="#f0f"
+        app:bottom_line_paddingRight="10dp"
+        app:bottom_line_paddingLeft="15dp"
+        app:show_bottom_line="true"
+        app:line_color="#0f0"
+        app:show_top_line="true"
+        app:top_line_paddingLeft="20dp"
+        app:top_line_paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"/>
+</RelativeLayout>
